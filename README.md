@@ -1,10 +1,16 @@
 # yaml-to-properties
 
 A util to convert files in .yml format into .properties format.
+Currently only supports single file conversion.
 
+## Install
+
+```
+npm install yaml2properties --save-dev
+```
 ## Usage
 
-Example
+Example yaml 
 
 ```
 "KEY1":
@@ -30,25 +36,6 @@ Example config.json
 
 and run with 
 
-`json-to-properties -c config.json`
-
-### -r, --reverse
-
-Performs the reversal process, converting .properties files into .json files.
-
-Example 
 ```
-KEY1.KEY2=Hello
-KEY3=World
-```
-
-result into a file containing
-
-```
-{
-    "KEY1": {
-        "KEY2": "Hello"
-    },
-    "KEY3":"World"
-}
+yaml2properties -c config.json
 ```
