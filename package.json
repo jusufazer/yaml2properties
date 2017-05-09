@@ -1,43 +1,24 @@
 {
-  "_args": [
-    [
-      {
-        "raw": "yaml-to-properties",
-        "scope": null,
-        "escapedName": "yaml-to-properties",
-        "name": "yaml-to-properties",
-        "rawSpec": "",
-        "spec": "latest",
-        "type": "tag"
-      },
-      "C:\\Workspace\\Projects\\kit-shop"
-    ]
-  ],
-  "dependencies": {
-    "commander": "2.9.0",
-    "lodash": "4.17.4",
-    "js-yaml": "3.8.3"
-  },
-  "description": "A standalone util to transform language files into .properties files.",
-  "directories": {},
-  "keywords": [
-    "json",
-    "properties",
-    "language",
-    "translations",
-    "i18n"
-  ],
-  "license": "MIT",
+  "name": "yaml2properties",
+  "version": "1.0.0",
+  "description": "convert yaml files to properties",
   "main": "src/index.js",
-  "name": "yaml-to-properties",
-  "optionalDependencies": {},
-  "readme": "ERROR: No README data found!",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/yusuf-azer/yaml2properties.git"
   },
-  "scripts": {
-    "test": "mocha"
+  "keywords": [
+    "yaml",
+    "properties",
+    "yaml-to-properties"
+  ],
+  "author": "Yusuf Azer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yusuf-azer/yaml2properties/issues"
   },
-  "version": "1.0.0"
+  "homepage": "https://github.com/yusuf-azer/yaml2properties#readme"
 }
