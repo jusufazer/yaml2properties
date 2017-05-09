@@ -15,6 +15,9 @@
     "properties",
     "yaml-to-properties"
   ],
+  "bin": {
+    "yaml2properties": "src/index.js"
+  },
   "author": "Yusuf Azer",
   "license": "MIT",
   "bugs": {
